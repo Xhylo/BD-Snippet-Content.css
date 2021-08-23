@@ -74,3 +74,26 @@
     83%  {border-color: magenta;}
     100% {border-color: red;}
 }
+/*About me section hover animation*/
+.aboutMeSection-1Fw5Ia:hover > .aboutMeBody-3GuvKk {
+    max-height: 500px;
+    transition: max-height 1s ease-in;
+}
+.aboutMeBody-3GuvKk {
+    max-height: 0;
+    transition: max-height 1s ease-out;
+}
+.aboutMeTitle-1IYtPE:after {
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"><path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/></svg>');
+    display:block;
+    width:16px;
+    height:16px;
+    margin-left: 5px;
+}
+.aboutMeSection-1Fw5Ia:hover > .aboutMeTitle-1IYtPE:after {
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');
+    display:block;
+    width:16px;
+    height:16px;
+    margin-left: 5px;
+}
