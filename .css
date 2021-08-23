@@ -128,3 +128,10 @@ to {
   background-position: 130% 0;
 }
 }
+/*Cool chat username*/
+.username-1A8OIy {
+    background-image: linear-gradient(transparent, rgb(175, 15, 15), 
+    rgb(0, 0, 0));
+    color: transparent !important;
+    -webkit-background-clip: text;
+}
