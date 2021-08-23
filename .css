@@ -106,3 +106,25 @@
     background-image: linear-gradient(to left,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
     display: block;
 }
+/*seleected channel rgb line animated*/
+.selected-3LIHYU .wrapper-2jXpOf::after {
+    content: "";
+    width: 225px;
+    height: 2px;
+    margin-left: 8px;
+    background-image: linear-gradient(to left,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
+    display: block;
+    animation: gradient-border 4s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    position: relative;
+    z-index: 1;
+}
+@keyframes gradient-border {
+from {
+  background-position: 0 0;
+}
+to {
+  background-position: 130% 0;
+}
+}
