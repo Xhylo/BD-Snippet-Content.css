@@ -50,3 +50,11 @@
     border: 1px solid transparent;
     border-radius: 25px;
 }
+/* Bubble messages */
+.cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
+    background-color: rgba(0,0,0,0.5);
+    display: inline-block;
+    margin: 0;
+    padding: 8px;
+    border-radius: 20px;
+}
