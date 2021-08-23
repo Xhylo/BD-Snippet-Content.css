@@ -58,3 +58,19 @@
     padding: 8px;
     border-radius: 20px;
 }
+/*Rainbow RGB app border*/
+#app-mount {
+    animation: rainbow 5s linear 0s infinite normal;
+    box-sizing: border-box;
+    border: 5px solid;
+}
+@keyframes rainbow {
+    0%   {border-color: red;}
+    16%  {border-color: orange;}
+    33%  {border-color: yellow;}
+    50%  {border-color: lime;}
+    58%  {border-color: cyan;}
+    66%  {border-color: blue;}
+    83%  {border-color: magenta;}
+    100% {border-color: red;}
+}
