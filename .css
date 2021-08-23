@@ -25,3 +25,28 @@
   content: "YOUR TEXT HERE";
   color: rgb(148, 148, 148);
 }
+/* Discord Message box */
+:root {
+    --color-brand-lighter: #4373c5;
+}
+.input-cIJ7To,
+.scrollableContainer-2NUZem {
+    background-color: #292929;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    border: 1px solid transparent;
+    outline: none;
+}
+.input-cIJ7To:hover,
+.scrollableContainer-2NUZem:hover {
+    border-color: #4373c5;
+    background-color: #2e2c2c;
+}
+.input-cIJ7To:focus-within,
+.scrollableContainer-2NUZem:focus-within {
+    background-color: #2e2c2c;
+    border-color: var(--color-brand-lighter);
+}
+.scrollableContainer-2NUZem {
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
