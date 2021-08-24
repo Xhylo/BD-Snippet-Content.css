@@ -171,3 +171,19 @@ to {
   background: var(--background-secondary-alt);
   border-radius: 7px;
 }
+/*Reaction borders be a cube*/
+.reaction-1hd86g{
+  background: -webkit-linear-gradient(120deg, rgba(138, 157, 224, 0.125), rgba(255, 255, 255, 0.152));
+  -webkit-background-clip: border-box;
+  border-color: #67686a;
+  border-width: 2px;
+  border-radius: 2px;
+}
+.reaction-1hd86g:hover{
+  background: -webkit-linear-gradient(80deg, rgb(146, 191, 221), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+}
+.reaction-1hd86g:hover{
+  background: -webkit-linear-gradient(120deg, rgba(138, 157, 224, 0.125), rgba(255, 255, 255, 0.152));
+  -webkit-background-clip: border-box;
+}
