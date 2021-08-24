@@ -187,3 +187,17 @@ to {
   background: -webkit-linear-gradient(120deg, rgba(138, 157, 224, 0.125), rgba(255, 255, 255, 0.152));
   -webkit-background-clip: border-box;
 }
+/*mentions*/
+:root {
+    --mention-hue: 187;
+}
+
+.mentioned-xhSam7 .repliedMessage-VokQwo:before{
+    border-color:hsla(var(--mention-hue), 73%, 46%);
+}
+.mentioned-xhSam7,.menu-3sdvDG,.mouse-mode.full-motion .mentioned-xhSam7:hover,.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z{
+  background-color:hsla(var(--mention-hue), 73%, 46%,0.1);
+}
+.mentioned-xhSam7:before,.menu-3sdvDG:before{
+  background-color:hsla(var(--mention-hue), 73%, 46%);
+}
