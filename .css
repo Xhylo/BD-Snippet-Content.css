@@ -547,3 +547,114 @@ div.avatar-3W3CeO.wrapper-3t9DeA, .text-37NqbO {
 .theme-dark .wordmark-2iDDfm:after {color: rgb(247, 245, 245);}
 .wordmark-2iDDfm > svg {width: 0px;}
 .winButton-iRh8-Z {position: relative;top: -13.5px;cursor: pointer;width: 32px;height: 30px;pointer-events: auto;-webkit-app-region: no-drag;}
+/* Squares */
+*:not(rect), [class*="sizeDefault"]:after {
+    border-radius: 0 !important;
+    mask: none !important;
+    -webkit-mask: none !important;
+}
+.sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
+   border-radius: 15px 15px 0 0 !important
+}
+
+.chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
+   position: relative;
+   left: 5px;
+   padding-right: 5px
+}
+/* Fly in Voice Chat buttons */
+
+.container-3baos1 .noWrap-3jynv6 {
+    width: 0px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .5s ease-in-out;
+}
+
+.container-3baos1:hover .noWrap-3jynv6 {
+    width: 100px;
+    opacity: 1;
+    pointer-events: all;
+}
+/*topp bar like gs*/
+body {
+   padding-top: 3.5px;
+   background: linear-gradient(270deg, #FEAC5E, #C779D0, #4BC0C8);
+}
+#app-mount {
+   height: calc(100% - 3.5px);
+}
+/*Custom user tag chat*/
+.avatar-1BDn8e[src*="254362351170617345"] + h2 .username-1A8OIy::after {
+    content: 'Owner';
+    color: #fff;
+    background: #7289da;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    height: 1.28em;
+    padding: 1px 4px;
+    border-radius: 3px;
+    line-height: 1.3;
+    margin-left: 4px;
+}
+/*Yellow Permission Ticks*/
+.passthroughSelected-1Eq0Kl {
+  background-color: #ffba00 !important;
+}
+
+.passthrough-1c2ewQ:not(.passthroughSelected-1Eq0Kl) img {
+  content: url("https://cdn.discordapp.com/attachments/729456400077422623/748313547800313906/yellow.svg");
+}
+/*rainbow mute/feafen button*/
+@keyframes pride {
+        100%,0%{
+            color: rgb(255,0,0);
+        }
+        8%{
+            color: rgb(255,127,0);
+        }
+        16%{
+            color: rgb(255,255,0);
+        }
+        25%{
+            color: rgb(127,255,0);
+        }
+        33%{
+            color: rgb(0,255,0);
+        }
+        41%{
+            color: rgb(0,255,127);
+        }
+        50%{
+            color: rgb(0,255,255);
+        }
+        58%{
+            color: rgb(0,127,255);
+        }
+        66%{
+            color: rgb(0,0,255);
+        }
+        75%{
+            color: rgb(127,0,255);
+        }
+        83%{
+            color: rgb(255,0,255);
+        }
+        91%{
+            color: rgb(255,0,127);
+        }
+}
+
+.button-14-BFJ{
+  transition: 0.2s;
+}
+.button-14-BFJ:hover{
+  padding-bottom: 5px;
+  transition: 0.2;
+  animation-name: pride;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
