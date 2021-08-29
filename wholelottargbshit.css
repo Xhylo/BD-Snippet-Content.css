@@ -1,0 +1,117 @@
+/* rgb Discord Message box */
+.input-cIJ7To,
+.scrollableContainer-2NUZem {
+    animation: boxr 5s linear 0s infinite normal;
+    border: 1px solid 
+}
+@keyframes boxr {
+    0%   {border-color: red;}
+    16%  {border-color: orange;}
+    33%  {border-color: yellow;}
+    50%  {border-color: lime;}
+    58%  {border-color: cyan;}
+    66%  {border-color: blue;}
+    83%  {border-color: magenta;}
+    100% {border-color: red;}
+}
+.containerDefault--pIXnN.selected-3LIHYU {
+    animation: rainbowwindowborder 5s linear 0s infinite normal;
+    border-left: 6px solid 
+}
+@keyframes rainbowwindowborder {
+    0%   {border-color: red;}
+    16%  {border-color: orange;}
+    33%  {border-color: yellow;}
+    50%  {border-color: lime;}
+    58%  {border-color: cyan;}
+    66%  {border-color: blue;}
+    83%  {border-color: magenta;}
+    100% {border-color: red;}
+}
+/*RGB pings*/
+.numberBadge-2s8kKX{
+    animation: ada 5s linear 0s infinite normal;
+}
+@keyframes ada {
+    0%   {background-color: rgba(255, 0, 0, 0.3);}
+    16%  {background-color: rgba(255, 166, 0, 0.3);}
+    33%  {background-color: rgba(255, 255, 0, 0.3);}
+    50%  {background-color: rgba(0, 255, 0, 0.3);}
+    58%  {background-color: rgba(0, 255, 255, 0.3);}
+    66%  {background-color: rgba(0, 0, 255, 0.3);}
+    83%  {background-color: rgba(255, 0, 255, 0.3);}
+    100% {background-color: rgba(255, 0, 0, 0.3);}
+}
+/*rainbow mute/feafen button*/
+@keyframes pride {100%,0%{
+            color: rgb(255,0,0);}8%{
+            color: rgb(255,127,0);}16%{
+            color: rgb(255,255,0);}25%{
+            color: rgb(127,255,0);}33%{
+            color: rgb(0,255,0);}41%{
+            color: rgb(0,255,127);}50%{
+            color: rgb(0,255,255);}58%{
+            color: rgb(0,127,255);}66%{
+            color: rgb(0,0,255);}75%{
+            color: rgb(127,0,255);}83%{
+            color: rgb(255,0,255);}91%{}
+}
+.button-14-BFJ{
+    animation: pride 5s linear 0s infinite normal;
+}
+#app-mount {
+    animation: rainbowwindowborder 5s linear 0s infinite normal;
+    box-sizing: border-box;
+    border: 5px solid;
+}
+@keyframes rainbowwindowborder {
+    0%   {border-color: red;}
+    16%  {border-color: orange;}
+    33%  {border-color: yellow;}
+    50%  {border-color: lime;}
+    58%  {border-color: cyan;}
+    66%  {border-color: blue;}
+    83%  {border-color: magenta;}
+    100% {border-color: red;}
+}
+.item-2hkk8m{
+    animation: ada 5s linear 0s infinite normal;
+}
+@keyframes ada {
+    0%   {background-color: rgba(255, 0, 0, 0.3);}
+    16%  {background-color: rgba(255, 166, 0, 0.3);}
+    33%  {background-color: rgba(255, 255, 0, 0.3);}
+    50%  {background-color: rgba(0, 255, 0, 0.3);}
+    58%  {background-color: rgba(0, 255, 255, 0.3);}
+    66%  {background-color: rgba(0, 0, 255, 0.3);}
+    83%  {background-color: rgba(255, 0, 255, 0.3);}
+    100% {background-color: rgba(255, 0, 0, 0.3);}
+}
+}
+#app-mount .wrapper-1BJsBx.childWrapper-anI2G9 {
+    animation: rainbowhomeicon-2 5s linear 0s infinite normal;
+}
+.homeIcon-FuNwkv path{
+    animation: rainbowhomeicon 5s linear 0s infinite normal;
+}
+@keyframes rainbowhomeicon {
+    0%   {fill: red;}
+    16%  {fill: orange;}
+    33%  {fill: yellow;}
+    50%  {fill: lime;}
+    58%  {fill: cyan;}
+    66%  {fill: blue;}
+    83%  {fill: magenta;}
+    100% {fill: red;}
+}
+@keyframes rainbowhomeicon-2 {
+    0%   {background-color: rgba(255, 0, 0, 0.3);}
+    16%  {background-color: rgba(255, 166, 0, 0.3);}
+    33%  {background-color: rgba(255, 255, 0, 0.3);}
+    50%  {background-color: rgba(0, 255, 0, 0.3);}
+    58%  {background-color: rgba(0, 255, 255, 0.3);}
+    66%  {background-color: rgba(0, 0, 255, 0.3);}
+    83%  {background-color: rgba(255, 0, 255, 0.3);}
+    100% {background-color: rgba(255, 0, 0, 0.3);}
+}
+}
